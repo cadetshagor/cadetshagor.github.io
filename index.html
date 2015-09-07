@@ -10,7 +10,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -402,7 +402,18 @@
         
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/uikit.min.js"></script>
         <script src="js/script.js"></script>
+        <script type="text/javascript">
+            $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                $('nav').addClass('navbar-shrink');
+              } else {
+                $('nav').removeClass('navbar-shrink');
+              }
+            });
+        </script>
              
     </body>
 </html>

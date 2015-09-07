@@ -60,7 +60,7 @@ body{
 }
 
 body p{
-  color: #D6D6D6;
+  color: #939393;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -75,7 +75,7 @@ section .section-heading{
 	color: #313131;
 }
 section .section-sub-heading{
-	color: #999999;
+	color: #929292;
   margin-bottom: 50px;
   font-family: 'Open Sans',sans-serif;
 }
@@ -137,6 +137,12 @@ General Styles End
 	color: #31aae1;
 }
 
+.navbar-shrink {
+  background-color: #ED8C5F;
+  padding: 10px 0;
+  border: none;
+}
+
 /*
 ================================
 Navigation Styles End 
@@ -148,17 +154,18 @@ Navigation Styles End
 */
 
 .header-content h1 {
-  font-size: 89px;
+  font-size: 79px;
   font-weight: 700;
   letter-spacing: 1px;
-  line-height: 83px;
+  line-height: 68px;
+  padding-top: 0;
   text-transform: uppercase;
 }
 
 .header-content {
-  padding: 130px 80px 50px 50px;
+  padding: 120px 80px 50px 50px;
 }
-.header-content p{font-style: italic; font-size: 16px; font-weight: 400px; margin: 20px 0;}
+.header-content p{ font-family: 'Open Sans', Sans-serif; color: #fff; font-style: italic; font-size: 16px; font-weight: 400px; margin: 20px 0;}
 .btn-header{background: transparent; border: 1px solid;}
 
 .header .inner{
@@ -313,3 +320,7 @@ Navigation Styles End
   
 }
 /*=========================== End of Amazing Features ========================================*/
+
+.features p{
+  color: #989898
+}
