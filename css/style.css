@@ -1,0 +1,315 @@
+/*
+=================================
+About Theme
+=================================
+
+Theme Name: Shagor
+Theme URI: www.shagortheme.me
+Author: Shagor Theme
+Author URI: http://shagortheme.com/
+Description: Shagor OnePage HTML5 Template by Jewel Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: html, themplate, polmo, jwtheme, business
+
+=================================
+
+
+=================================
+Table of contents
+=================================
+01. Google Fonts
+02. General Styles
+03. Navigation styles
+04. Header styles
+05. About us section styles
+06. Features section styles
+07. Portfolio section styles
+08. Amazing Features section styles
+09. Core Features Section Styles
+10. Team Section Styles
+11. Posibilities Section Styles
+
+================================
+
+
+
+================================
+01. Google Fonts 
+================================
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,700,700italic);
+
+/*
+================================
+Google Fonts End 
+================================
+
+
+================================
+02. General Styles
+================================
+*/
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+body p{
+  color: #D6D6D6;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Montserrat",sans-serif;
+}
+
+section{padding: 100px;}
+
+section .section-heading{
+	font-size: 26px; 
+	text-transform: uppercase;
+	color: #313131;
+}
+section .section-sub-heading{
+	color: #999999;
+  margin-bottom: 50px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+ul li{ list-style: none;}
+/*
+================================
+General Styles End 
+================================
+
+
+================================
+03. Navigation Styles
+================================
+*/
+
+.navbar-default{background-color: transparent; padding: 20px 0; transition:padding 0.3s ease 0s; color: #fff;}
+.navbar-default .navbar-header .navbar-brand{text-transform: uppercase; font-size: 25px; color: #fff; margin-left:25px; border-right: 1px solid #fff; }
+.navbar-default ul li a{text-transform: uppercase; font-size: 12px; font-weight: bold;}
+.navbar-default .navbar-nav>li>a{color: #fff;}
+.header{ 
+	background-image: url(../images/header.jpg); 
+	background-attachment: scroll; 
+	background-position: center center; 
+	background-size: cover; 
+	color:#fff;
+	height: 100vh;
+
+}
+
+.navbar-default .navbar-header{
+  border-right: 1px solid #fff;
+}
+.navbar-default {
+  border-bottom: 1px solid #fff;
+}
+
+.nav-top-social li a {
+  margin: 0;
+  padding: 15px 5px;
+}
+
+.nav-top-social span {
+  background: #31aae1 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  margin: -4px auto;
+  padding: 4px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 30px;
+}
+
+.nav-top-social span:hover{
+	background: #fff;
+	color: #31aae1;
+}
+
+/*
+================================
+Navigation Styles End 
+================================
+
+================================
+04. Header Section Styles
+================================
+*/
+
+.header-content h1 {
+  font-size: 89px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 83px;
+  text-transform: uppercase;
+}
+
+.header-content {
+  padding: 130px 80px 50px 50px;
+}
+.header-content p{font-style: italic; font-size: 16px; font-weight: 400px; margin: 20px 0;}
+.btn-header{background: transparent; border: 1px solid;}
+
+.header .inner{
+  background: -webkit-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #f46b45 10%, #eea849 90%); /* W3C */
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.btn-header{
+	background: transparent;
+	border-radius: 0px;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+.btn-header:hover{
+	background: #fff;
+	color: #333;
+}
+
+/*
+================================
+Navigation Styles End 
+================================
+
+================================
+06. Features Section Styles
+================================
+*/
+.features{background: #F9F9F9;}
+
+.features-items{ 
+	text-align: center;
+}
+.features-items span {
+  background: #31aae1 none repeat scroll 0 0;
+  color: #fff;
+  border-radius: 50%;
+  display: block;
+  height: 50px;
+  margin: auto;
+  padding: 13px;
+  text-align: center;
+  width: 50px;
+  border: 2px solid #31aae1;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.features-items span:hover{
+	background: #fff;
+	color: #31aae1;
+	border: 2px solid #31aae1;
+}
+
+/*
+================================
+Navigation Styles End 
+================================
+
+================================
+07. Amazing Features section styles
+================================
+*/
+.amazing-feature{
+  background-image: url(../images/amazeing_header.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 600px;
+}
+.amazing-feature .amazing-feature-inner{
+  background-color: #DC4966;
+  min-height: 600px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.85;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.amazing-feature .section-heading{
+  color: #fff;
+}
+
+.amazing-feature .section-sub-heading{
+  color: #fff;
+}
+.amazing-feature ul li{
+  padding-bottom:20px; 
+}
+
+
+.left-single-feature-list span {
+  background: #31aae1 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  height: 50px;
+  margin-left: 10px;
+  padding: 8px 10px;
+  width: 51px;
+}
+
+.left-single-feature-list h4 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.left-single-feature-list p {
+  color: #fff;
+  font-size: 13px;
+  padding-left: 23px;
+}
+
+.right-single-feature-list span {
+  background: #31aae1 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  height: 50px;
+  margin-right: 10px;
+  padding: 8px 10px;
+  width: 51px;
+}
+
+.right-single-feature-list h4 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.right-single-feature-list p {
+  color: #fff;
+  font-size: 13px;
+  padding-right: 23px;
+}
+
+.amazing-feature .amazing-mobile{
+  padding: 0px 0px
+}
+.amazing-feature .amazing-mobile img{
+  
+}
+/*=========================== End of Amazing Features ========================================*/
