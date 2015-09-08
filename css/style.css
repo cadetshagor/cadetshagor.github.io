@@ -79,8 +79,23 @@ section .section-sub-heading{
   margin-bottom: 50px;
   font-family: 'Open Sans',sans-serif;
 }
-
 ul li{ list-style: none;}
+.btn-purchase {
+  background: #31aae1 none repeat scroll 0 0;
+  border-radius: 0;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #31aae1;
+  padding: 8px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.btn-purchase:hover{
+  background: #fff;
+  color: #31aae1;
+
+}
 /*
 ================================
 General Styles End 
@@ -323,4 +338,98 @@ Navigation Styles End
 
 .features p{
   color: #989898
+}
+
+/*
+================================
+07. Huge Core Fitures
+================================
+*/
+.core-feature{
+  background: #F9F9F9;
+}
+.feature-slider-container .flexslider {
+  background: #ffffff none repeat scroll 0 0;
+  border: 4px solid #ffffff;
+  border-radius: 4px;
+  margin: 0 0 11px;
+  position: relative;
+}
+.feature-slider-container #carousel ul li{
+  margin-right: 11px;
+}
+.flex-direction-nav a::before {
+  font-size: 32px;
+}
+
+
+#carousel img {display: block; opacity: .5; cursor: pointer;}
+#carousel img:hover {opacity: 1;}
+#carousel .flex-active-slide img {opacity: 1; cursor: default;}
+
+#core-feature  .section-heading{
+  margin-top: 0px;
+}
+.core-content ul{
+  /*margin-left: 0px;*/
+  margin: 30px 0px; 
+  padding-left: 0px;
+}
+.core-content ul li p span{
+  color: #32ACDB;
+  margin-right: 10px;
+}
+
+/*
+================================
+09. Team Sections
+================================
+*/
+.team-social {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.team-social li{
+  float: left;
+}
+
+.team-social li span {
+  background: #31aae1 none repeat scroll 0 0;
+  border: 1px solid #31aae1;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  height: 35px;
+  margin-left: 10px;
+  padding: 7px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 35px;
+}
+
+.team-social li span:hover{
+  background: #fff;
+  color: #31aae1;
+  border: 1px solid #31aae1;
+}
+#team img{
+  max-width: 55%;
+  display: inline;
+}
+
+#team .member-1, .member-2{
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+#team .member-3, .member-4{
+  padding-top: 40px;
+}
+
+#team .member-1, .member-3{
+  border-right: 1px solid #d4d4d4;
 }

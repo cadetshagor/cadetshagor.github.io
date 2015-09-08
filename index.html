@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        
+        <!-- css for flexslider -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
@@ -70,16 +73,16 @@
         <section id="about-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5" data-uk-scrollspy="{cls:'uk-animation-slide-left uk-animation-fade', repeat: true}">
                         <img src="images/mobile.jpg" class="img-responsive" alt="">
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7" data-uk-scrollspy="{cls:'uk-animation-slide-right uk-animation-fade', repeat: true}">
                         <h3>Hello! We're Creative Agency</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, repellat non ducimus saepe ipsam consectetur itaque. Necessitatibus quibusdam cupiditate deserunt qui ullam. Quis possimus blanditiis recusandae nemo debitis sequi sapiente eveniet deserunt assumenda quia unde delectus, voluptate, ea eligendi excepturi repudiandae dolore maxime consequuntur alias omnis magnam dolores harum cum?</p> 
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, voluptates inventore iure ex ipsum aut iusto quam cumque facilis. Reiciendis neque dolorem odio fuga blanditiis sunt adipisci deserunt dicta deleniti.</p>
 
-                        <a href="#" class="btn btn-primary">PURCHASE</a>
+                        <a href="#" class="btn btn-purchase">PURCHASE</a>
                     </div>
                 </div>
             </div>
@@ -88,8 +91,8 @@
 
         <!-- features section -->
         <section id="features" class="features">
-            <div class="container">
-                <div class="row">
+            <div class="container" data-uk-scrollspy="{cls:'uk-animation-fade', target:'.features-items', delay:300}">
+                <div class="row" >
                     <div class="col-md-3 features-items">
                         <span><i class="fa fa-eye"></i></span>
                         <h4>Multi Purpose</h4>
@@ -199,20 +202,69 @@
 
 
         <!-- core feature -->
-        <section id="core-feature">
+        <section id="core-feature" class="core-feature">
             <div class="container">
                 <div class="row">
                     
                     <!-- feature slider -->
-                    <div class="col-md-6">
-                        <h3>Feature Slider</h3>
+                    <div class="col-lg-6">
+                        <div class="feature-slider-container">
+                            <!-- Place somewhere in the <body> of your page -->
+                            <div id="slider" class="flexslider">
+                              <ul class="slides">
+                                <li>
+                                  <img src="images/slider/slider1.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider2.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider3.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider4.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider1.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider2.jpg" />
+                                </li>
+                                <!-- items mirrored twice, total of 12 -->
+                              </ul>
+                            </div>
+                            <div id="carousel" class="flexslider">
+                              <ul class="slides">
+                                <li>
+                                  <img src="images/slider/slider1.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider2.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider3.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider4.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider1.jpg" />
+                                </li>
+                                <li>
+                                  <img src="images/slider/slider2.jpg" />
+                                </li>
+
+                                <!-- items mirrored twice, total of 12 -->
+                              </ul>
+                            </div>
+                        </div>
                     </div>
                     <!-- /feature slider -->
 
                     <!-- feature details -->
-                    <div class="col-md-6">
-                        <h3>Huge Core Features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, placeat!</p>
+                    <div class="col-lg-6 text-left core-content">
+                        <h3 class="section-heading">Huge Core Features</h3>
+                        <p class="section-sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, placeat!</p>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias et, deleniti non possimus quia aut dolores ducimus. Vel praesentium dicta vero dolores ipsa distinctio, dolore facilis, eius recusandae sapiente dignissimos.</p>
 
@@ -220,20 +272,20 @@
 
                         <ul>
                             <li>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p> <span><i class="fa fa-star"> </i></span>   Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </li>
                             <li>
-                                <p>Perferendis nesciunt inventore commodi laudantium! Sunt qui, ipsam.</p>
+                                <p> <span><i class="fa fa-star"> </i></span>Perferendis nesciunt inventore commodi laudantium! Sunt qui, ipsam.</p>
                             </li>
                             <li>
-                                <p>Corporis est, similique suscipit! Facere tenetur possimus tempora.</p>
+                                <p> <span><i class="fa fa-star"> </i></span>Corporis est, similique suscipit! Facere tenetur possimus tempora.</p>
                             </li>
                             <li>
-                                <p>Consequatur aliquam ex non soluta illo suscipit, quibusdam.</p>
+                                <p> <span><i class="fa fa-star"> </i></span>Consequatur aliquam ex non soluta illo suscipit, quibusdam.</p>
                             </li>
                         </ul>
 
-                        <a href="#" class="btn btn-primary">Purchase</a>
+                        <a href="#" class="btn btn-purchase">Purchase</a>
 
                     </div>
                     <!-- /feature details -->
@@ -254,84 +306,84 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 member-1">
                         <div class="media">
-                          <div class="media-left">
+                          <div class="media-left text-center">
                             <a href="#">
-                              <img class="media-object" src="images/team-member.png" alt="">
+                              <img class="media-object img-circle" src="images/shagor.png" alt="">
                             </a>
-                            <ul>
-                                <li> <i class="fa fa-facebook"></i> </li>
-                                <li> <i class="fa fa-twitter"></i> </li>
-                                <li> <i class="fa fa-linkedin"></i> </li>
+                            <ul class="team-social">
+                                <li> <span><i class="fa fa-facebook"></i></span> </li>
+                                <li> <span><i class="fa fa-twitter"></i></span> </li>
+                                <li> <span><i class="fa fa-linkedin"></i></span> </li>
                             </ul>
                           </div>
                           <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <h5>Founder</h5>
+                            <h4 class="media-heading">Md. Shagor Sarder</h4>
+                            <h5>Head of Idea</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, unde, animi. Molestiae, architecto! Ad, dignissimos.</p>
                             
                           </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 member-2">
                         <div class="media">
-                          <div class="media-left">
+                          <div class="media-left text-center">
                             <a href="#">
-                              <img class="media-object" src="images/team-member.png" alt="">
+                              <img class="media-object img-circle" src="images/mamun.png" alt="">
                             </a>
-                            <ul>
-                                <li> <i class="fa fa-facebook"></i> </li>
-                                <li> <i class="fa fa-twitter"></i> </li>
-                                <li> <i class="fa fa-linkedin"></i> </li>
+                            <ul class="team-social">
+                                <li> <span><i class="fa fa-facebook"></i></span> </li>
+                                <li> <span><i class="fa fa-twitter"></i></span> </li>
+                                <li> <span><i class="fa fa-linkedin"></i></span> </li>
                             </ul>
                           </div>
                           <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <h5>Founder</h5>
+                            <h4 class="media-heading">Tanvirul Islam Tusher</h4>
+                            <h5>Head of Development</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, unde, animi. Molestiae, architecto! Ad, dignissimos.</p>
                             
                           </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 member-3">
                         <div class="media">
-                          <div class="media-left">
+                          <div class="media-left text-center">
                             <a href="#">
-                              <img class="media-object" src="images/team-member.png" alt="">
+                              <img class="media-object img-circle" src="images/aveek.png" alt="">
                             </a>
-                            <ul>
-                                <li> <i class="fa fa-facebook"></i> </li>
-                                <li> <i class="fa fa-twitter"></i> </li>
-                                <li> <i class="fa fa-linkedin"></i> </li>
+                            <ul class="team-social">
+                                <li> <span><i class="fa fa-facebook"></i></span> </li>
+                                <li> <span><i class="fa fa-twitter"></i></span> </li>
+                                <li> <span><i class="fa fa-linkedin"></i></span> </li>
                             </ul>
                           </div>
                           <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <h5>Founder</h5>
+                            <h4 class="media-heading">NS Aveek</h4>
+                            <h5>Head of Android Development</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, unde, animi. Molestiae, architecto! Ad, dignissimos.</p>
                             
                           </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 member-4">
                         <div class="media">
-                          <div class="media-left">
+                          <div class="media-left text-center">
                             <a href="#">
-                              <img class="media-object" src="images/team-member.png" alt="">
+                              <img class="media-object img-circle" src="images/polok.png" alt="">
                             </a>
-                            <ul>
-                                <li> <i class="fa fa-facebook"></i> </li>
-                                <li> <i class="fa fa-twitter"></i> </li>
-                                <li> <i class="fa fa-linkedin"></i> </li>
+                            <ul class="team-social">
+                                <li> <span><i class="fa fa-facebook"></i></span> </li>
+                                <li> <span><i class="fa fa-twitter"></i></span> </li>
+                                <li> <span><i class="fa fa-linkedin"></i></span> </li>
                             </ul>
                           </div>
                           <div class="media-body">
-                            <h4 class="media-heading">Media heading</h4>
-                            <h5>Founder</h5>
+                            <h4 class="media-heading">Chowdhury Saheb</h4>
+                            <h5>Head of Graphics</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, unde, animi. Molestiae, architecto! Ad, dignissimos.</p>
                             
                           </div>
@@ -403,8 +455,12 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="js/jquery-2.1.4.min.js"></script>
+
+        <!-- Place somewhere in the <head> of your document -->
+        <script src="js/jquery.flexslider.js"></script>
+
         <script src="js/uikit.min.js"></script>
-        <script src="js/script.js"></script>
+        <script src="js/scripts.js"></script>
         <script type="text/javascript">
             $(window).scroll(function() {
               if ($(document).scrollTop() > 50) {
