@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6{
 	font-family: "Montserrat",sans-serif;
 }
 
-section{padding: 100px;}
+section{padding: 100px 0px;}
 
 section .section-heading{
 	font-size: 26px; 
@@ -432,4 +432,182 @@ Navigation Styles End
 
 #team .member-1, .member-3{
   border-right: 1px solid #d4d4d4;
+}
+
+/*
+----------------------------------------------------
+
+================================
+09. Posibilities Section
+================================
+*/
+
+.posibilities {
+  background: #FFD37A;
+  padding-bottom: 0px;
+}
+
+.posibilities ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.posibility-list li {
+  padding-bottom: 126px;
+  padding-right: 55px;
+}
+
+.posibilities ul li span {
+  background: #31aae1 none repeat scroll 0 0;
+  border: 1px solid #31aae1;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: 55px;
+  padding: 12px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 55px;
+}
+
+.posibilities ul li span:hover{
+  background: #fff;
+  color: #31aae1;
+  border: 1px solid #31aae1;
+}
+
+.posibilities .theme-item-icon{
+  padding-left: 0px;
+}
+
+.posibilities .theme-item-body{
+  /*margin-left: -30px;*/
+}
+
+.posibilities .theme-posibiliti-img{
+  height: 100%;
+}
+
+.posibilities .theme-item-body > h4 {
+  font-size: 15px;
+  color: #253534;
+}
+/*=========================================== End : Posibilities Section =================================================
+
+
+================================
+09. Blog Section
+================================
+*/
+
+.blog{
+  background: #F9F9F9;
+}
+
+.latest-post .single-post{
+  padding: 0px 10px;  
+}
+
+.latest-post .single-post-container {
+  background: #ffffff none repeat scroll 0 0;
+  margin-bottom: 30px;
+}
+
+.blog-text{
+  
+}
+.social-share {
+  list-style: outside none none;
+  margin: 0;
+}
+
+.social-share li{
+  float: left;
+}
+.social-share span {
+  background: #0e91c5 none repeat scroll 0 0;
+  border-radius: 25px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  height: 25px;
+  margin-right: 7px;
+  padding: 3px;
+  text-align: center;
+  width: 54px;
+  cursor:pointer;
+  
+}
+
+.social-share .social-comment{
+  background: #0e91c5;
+}
+
+.social-share .social-comment:hover{
+  background: #fff;
+  color: #0e91c5;
+}
+
+.social-share .social-heart{
+  background: #EE778D;
+}
+
+.social-share .social-heart:hover{
+  background: #fff;
+  color: #EE778D;
+}
+
+.social-share .social-fshare{
+  background: #70C7B6;
+}
+
+.social-share .social-fshare:hover{
+  background: #fff;
+  color: #70C7B6; 
+}
+
+.blog-media{
+  position: relative;
+  padding-left: 0px;
+}
+
+.blog-media .social-share{
+  position: absolute;
+  bottom: 10px;
+}
+
+.blog-media iframe {
+  height: 346px;
+  width: 100%;
+}
+
+.blog-text h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
+
+.blog-text ul{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.blog-text ul li {
+  color: #939393;
+  float: left;
+  font-size: 12px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.blog-text p {
+  float: left;
+  font-size: 13px;
+  margin-top: 18px;
+}
+
+.clearfloat{
+  clear: right;
 }
