@@ -40,9 +40,9 @@ Table of contents
 ================================
 */
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,700,700italic);*/
 
 /*
 ================================
@@ -59,8 +59,10 @@ body{
 
 }
 
+
 body p{
   color: #939393;
+  font-family: "Open Sans",sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -618,3 +620,58 @@ Navigation Styles End
 09. Pricing Table
 ================================
 */
+#pricing .container{
+  width: 970px;
+}
+
+.pricing-header{
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  border: 1px solid #74C8B8;
+}
+.pricing-header p,span{
+  color: #fff;
+}
+.pricing-header .price-sign {
+  display: inline-block;
+  font-size: 30px;
+  margin: 11px 0 0 -4px;
+  position: relative;
+  vertical-align: top;
+}
+
+.pricing-header .price{
+  font-size: 65px;
+}
+
+.plan-1, .plan-2, .plan-3{
+  color: #fff;
+  text-align: center;
+}
+
+.pricing-header .pricing-title{
+  padding: 20px;
+}
+.pricing-body{
+  border:1px solid #F0F0F0;
+  padding: 10px;
+}
+.pricing-body ul{
+  margin-left:0px;
+  padding: 0px;
+}
+.pricing-body ul li{
+  color: #C1C1C1;
+  padding: 5px;
+}
+
+.plan-1 .pricing-header{
+  background: #74C8B8;
+}
+
+.plan-2 .pricing-header{
+  background: #31AAE1;
+}
+.plan-3 .pricing-header{
+  background: #C183D6;
+}
