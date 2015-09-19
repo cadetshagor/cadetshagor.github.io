@@ -675,3 +675,203 @@ Navigation Styles End
 .plan-3 .pricing-header{
   background: #C183D6;
 }
+/*=========================================== End : Pricing Section =================================================
+
+
+================================
+09. Footer Section
+================================
+*/
+
+.row-padding{
+  width: 1170px;
+  margin: auto;
+}
+
+.top-social-row{
+  background: #313131;
+}
+
+.top-footer-social ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-footer-social ul li {
+  padding: 24px;
+  text-align: center;
+}
+
+.top-footer-social .left-social li{
+  float: left;
+  padding-left: 0px;
+}
+
+.top-footer-social .right-social li{
+  float: right;
+  padding-right: 0px;
+}
+.top-footer-social ul li a{
+  text-align: center;
+  text-decoration: none;
+  color: #6B6B6B;
+  text-transform: uppercase;
+}
+
+.top-footer-social ul li span {
+  background: #4a4a4a none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #6b6b6b;
+  display: block;
+  font-size: 25px;
+  height: 50px;
+  padding: 8px;
+  width: 50px;
+  margin-bottom: 4px;
+}
+
+.top-footer-social ul li span:hover{
+  background: #31AAE1;
+  color: #fff;
+}
+.footer-logo {
+  padding-top: 38px;
+}
+
+.footer-logo span{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  border:2px solid #fff;
+  font-family: "Open Sans",sans-serif;
+}
+.widget-container{
+  background: #2D2D2D;
+  padding: 75px 0px;
+}
+.single-widget{
+  color: #939393;
+}
+.single-widget p{
+  color: #939393;
+}
+.single-widget .widget-heading {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+
+/*widget 1 styles*/
+
+.single-widget .widget-1 ul{
+  margin: 0px;
+  padding: 0px;
+}
+.single-widget .widget-1 ul li{
+  padding: 10px;
+  border-top: 1px solid #939393;
+  color: #939393;
+}
+
+.single-widget .widget-1 p{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.widget-box.widget-1 span {
+  display: block inline-block;
+  padding: 5px;
+  padding-left: 0px;
+  color: #939393;
+}
+
+/*widget 2 style*/
+
+.single-widget .widget-2 ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.single-widget .widget-2 ul li {
+  float: left;
+  padding: 10px;
+  width: 50%;
+  padding-left: 0px;
+}
+
+.single-widget .widget-2 ul li a{
+  color: #939393;
+  text-decoration: none;
+}
+
+.single-widget .widget-2 ul li span{
+  padding-right: 5px;
+  color: #32AAE7;
+}
+
+/*widget 3 style*/
+.single-widget .widget-3 ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.single-widget .widget-3 ul li{
+  padding: 5px;
+  padding-left: 0px;
+  float: left;
+  width: 25%;
+}
+
+/*widget 4 style*/
+.single-widget .widget-4 .form-group input, .single-widget .widget-4 .form-group button{
+  border-radius: 0px;
+}
+
+.single-widget .widget-4 .form-group button{
+  background: #34ABE3;
+  border-color: #34ABE3;
+}
+
+.single-widget .widget-4 span{
+  color: #939393;
+}
+
+.single-widget .widget-4 p{
+  margin-bottom:16px; 
+}
+
+.single-widget .widget-4 ul{
+  margin: 0px;
+  padding: 0px;
+}
+.single-widget .widget-4 ul li {
+  float: left;
+  padding: 0 13px 5px 0;
+}
+
+.single-widget .widget-4 .respect-privacy{
+  border-bottom: 1px solid #fff;
+}
+
+/*footer bottom nav*/
+.footer-bottom-nav{
+  background: #313131;  
+}
+
+.footer-bottom-nav ul{
+  margin-left: 0px;
+  padding: 0px;
+}
+.footer-bottom-nav ul li{
+  float: left;
+  padding: 5px;
+}
+
+.footer-bottom-nav ul li a{
+  text-decoration: none;
+  color: #6b6b6b;
+}
+
+.footer-bottom-nav .footer-menu{
+  margin: 35px 0px;
+}
